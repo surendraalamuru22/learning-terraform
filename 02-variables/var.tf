@@ -52,5 +52,5 @@ output "sample5" {
 
 variable "sample7" {}
 output "sample6" {
-  value = "var.sample7"
+  value = var.sample7
 }
