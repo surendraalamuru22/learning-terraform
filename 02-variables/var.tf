@@ -37,3 +37,15 @@ variable "sample5" {
 output "sample4" {
   value = var.sample5[1]
 }
+
+variable "sample6" {
+  default = {
+    string = "hello world"
+    number = 200
+    booloean = true
+  }
+}
+
+output "sample5" {
+  value = var.sample6
+}
