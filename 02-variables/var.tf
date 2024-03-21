@@ -49,3 +49,8 @@ variable "sample6" {
 output "sample5" {
   value = var.sample6["number"]
 }
+
+variable "sample7" {}
+output "sample6" {
+  value = "var.sample7"
+}

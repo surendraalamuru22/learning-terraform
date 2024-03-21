@@ -1,0 +1,1 @@
+sample7 = "foo"
