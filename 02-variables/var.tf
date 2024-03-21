@@ -5,3 +5,7 @@ variable "sample" {
 output "sample" {
   value = var.sample
 }
+
+output "sample2" {
+  value = "Hey, ${var.sample}"
+}
