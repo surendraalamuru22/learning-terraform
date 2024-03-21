@@ -49,13 +49,21 @@ variable "sample6" {
 output "sample5" {
   value = var.sample6["number"]
 }
-
+# fromk tfvars
 variable "sample7" {}
 output "sample6" {
   value = var.sample7
 }
 
+#from cli
 variable "sample8" {}
 output "sample7" {
+  value = var.sample8
+}
+
+# fromm shell environment variable
+# export TF_VAR_sample9=1234
+variable "sample9" {}
+output "sample8" {
   value = var.sample8
 }
