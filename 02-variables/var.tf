@@ -25,3 +25,15 @@ variable "sample4" {
 output "sample3" {
   value = var.sample3
 }
+
+variable "sample5" {
+  default = [
+    "hey you",
+    100,
+    true
+  ]
+}
+
+output "sample4" {
+  value = var.sample5
+}
