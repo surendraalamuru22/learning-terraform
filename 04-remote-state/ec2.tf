@@ -7,3 +7,5 @@ resource "aws_instance" "sample" {
     Name = Upper(var.tagName)
   }
 }
+
+variable "tagNmame" {}
