@@ -6,5 +6,5 @@ variable "sample" {
 }
 
 output "sample" {
-  value = "(element(var.sample, 0)"
+  value = element(var.sample, 0)
 }
