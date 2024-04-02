@@ -23,5 +23,5 @@ variable "sample1" {
 }
 
 output "sample1" {
-  value = lookup(var.sample1, "apple", null)
+  value = lookup(lookup(var.sample1, "apple", null), "count", 0)
 }
