@@ -8,4 +8,4 @@ resource "aws_instance" "sample" {
   }
 }
 
-variable "tagNmame" {}
+variable "tagName" {}
