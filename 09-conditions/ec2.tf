@@ -19,6 +19,7 @@ resource "aws_instance" "sample" {
       "yum install nginx -y",
       "systemctl start nginx "
     ]
+  }
 }
 
 resource "aws_security_group" "allow_ssh" {
