@@ -20,3 +20,13 @@ variable "instances" {
     }
   }
 }
+
+resource "null_resource" "test" {
+  provisioner "local-exec" {
+    command = local.message
+  }
+}
+
+locals {
+  message = "echo hello world"
+}
