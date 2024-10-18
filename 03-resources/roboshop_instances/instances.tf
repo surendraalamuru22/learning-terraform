@@ -6,3 +6,7 @@ resource "aws_instance" "frontend" {
     Name = "frontend"
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
