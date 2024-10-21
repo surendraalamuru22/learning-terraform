@@ -77,3 +77,9 @@ variable "cli" {}
 output "cli" {
   value = var.cli
 }
+
+variable "sunny" {}
+
+output "sunny" {
+  value = var.sunny
+}
