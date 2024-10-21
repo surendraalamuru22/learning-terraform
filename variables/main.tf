@@ -15,7 +15,7 @@ variable "num1" {
 }
 
 variable "bool1" {
-  default = True
+  default = true
 }
 
 variable "str1" {
@@ -29,7 +29,7 @@ variable "str2" {
 variable "list1" {
   default = [
     10,
-  True,
+  true,
   "XYZ"
   ]
 }
