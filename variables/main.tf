@@ -65,3 +65,9 @@ output "map2" {
 output "map1" {
   value = var.map1["aws"]["trainer"]
 }
+
+variable "sarath" {}
+
+output "sarath" {
+  value = var.sarath
+}
