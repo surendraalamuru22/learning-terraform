@@ -71,3 +71,9 @@ variable "sarath" {}
 output "sarath" {
   value = var.sarath
 }
+
+variable "cli" {}
+
+output "cli" {
+  value = var.cli
+}
