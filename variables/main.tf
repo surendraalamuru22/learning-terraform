@@ -1,7 +1,7 @@
-variable "URL" {
+variable url {
   default = "example.com"
 }
 
-output "URL" {
-  value = "var.URL"
+output "url" {
+  value = var.url
 }
