@@ -83,3 +83,9 @@ variable "sunny" {}
 output "sunny" {
   value = var.sunny
 }
+
+variable "bablu" {}
+
+output "bablu" {
+  value = var.bablu
+}
