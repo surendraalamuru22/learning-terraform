@@ -48,5 +48,5 @@ variable "map1" {
 }
 
 output "list1" {
-  value = var.list1[3]
+  value = var.list1[2]
 }
