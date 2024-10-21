@@ -47,6 +47,18 @@ variable "map1" {
   }
 }
 
+variable "map2" {
+  default = {
+    boolean = true
+    number = 20
+    string = "sarath"
+  }
+}
+
 output "list1" {
   value = var.list1[2]
+}
+
+output "map2" {
+  value = var.map2["number"]
 }
