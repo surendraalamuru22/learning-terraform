@@ -62,3 +62,6 @@ output "list1" {
 output "map2" {
   value = var.map2["number"]
 }
+output "map1" {
+  value = var.map1["aws"]["trainer"]
+}
