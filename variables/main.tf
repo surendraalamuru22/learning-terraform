@@ -29,8 +29,8 @@ variable "str2" {
 variable "list1" {
   default = [
     10,
-  true,
-  "XYZ"
+    true,
+    "XYZ"
   ]
 }
 
