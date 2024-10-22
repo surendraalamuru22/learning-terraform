@@ -13,7 +13,7 @@ resource "aws_instance" "instance" {
 }
 
 
-resource "aws_instance" "instance" {
+resource "aws_instance" "test" {
   count = length(var.instances)
   ami           = "ami-0b4f379183e5706b9"
   instance_type = "t3.small"
