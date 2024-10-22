@@ -5,10 +5,7 @@ variable "instances" {
 module "ec2" {
   count = length(var.instances)
   source = "./ec2"
-
-  tags {
-    Name = element(var.instances, count.index )
-  }
+  instance_name = element(var.instances, count.index)
 }
 
 provider "aws" {
