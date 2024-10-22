@@ -10,3 +10,7 @@ module "ec2" {
     Name = element(var.instances, count.index )
   }
 }
+
+provider "aws" {
+  region = "us-east-1"
+}
