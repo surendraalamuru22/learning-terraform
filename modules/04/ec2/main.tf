@@ -8,3 +8,7 @@ resource "aws_instance" "sample" {
 }
 
 variable "instance_name" {}
+
+output "private-ip" {
+  value = aws_instance.sample.private_ip
+}

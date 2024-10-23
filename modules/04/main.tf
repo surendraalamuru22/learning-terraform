@@ -11,3 +11,7 @@ module "ec2" {
 provider "aws" {
   region = "us-east-1"
 }
+
+output "ip" {
+  value = module.ec2
+}
