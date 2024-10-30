@@ -60,3 +60,9 @@ variable "sarathtfvars" {}
 output "sarathtfvars" {
   value = var.sarathtfvars
 }
+
+variable "cli" {}
+
+output "cli" {
+  value = var.cli
+}
