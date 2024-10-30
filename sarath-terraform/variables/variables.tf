@@ -48,3 +48,10 @@ output "pichipuka" {
 output "tfvars" {
   value = var.tfvars
 }
+
+variable "autotfvars" {}
+
+output "autotfvars" {
+  value = var.autotfvars
+}
+
