@@ -31,5 +31,5 @@ variable "map" {
 }
 
 output "sample4" {
-  value = var.map[apple]
+  value = var.map["apple"]
 }
