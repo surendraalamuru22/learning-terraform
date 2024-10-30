@@ -13,3 +13,7 @@ provider "aws" {
 output "public-ip" {
   value = aws_instance.sarath.public_ip
 }
+
+output "private-ip" {
+  value = aws_instance.sarath.private_ip
+}
