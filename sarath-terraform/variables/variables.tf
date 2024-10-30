@@ -39,6 +39,12 @@ output "sample4" {
 
 variable "tfvars" {}
 
+variable "surendra" {}
+
+output "pichi puka" {
+  value = var.surendra
+}
+
 output "tfvars" {
   value = var.tfvars
 }
