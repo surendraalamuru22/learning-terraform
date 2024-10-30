@@ -55,3 +55,8 @@ output "autotfvars" {
   value = var.autotfvars
 }
 
+variable "sarathtfvars" {}
+
+output "sarathtfvars" {
+  value = var.sarathtfvars
+}
