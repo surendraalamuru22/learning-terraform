@@ -15,7 +15,7 @@ variable "list" {
   default = [
    "test",
     100,
-    boolean
+    true
   ]
 }
 
