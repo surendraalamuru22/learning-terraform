@@ -22,3 +22,14 @@ variable "list" {
 output "sample3" {
   value = var.list[1]
 }
+
+variable "map" {
+  default = {
+    apple = {}
+    orange = {}
+  }
+}
+
+output "sample4" {
+  value = var.map[apple]
+}
