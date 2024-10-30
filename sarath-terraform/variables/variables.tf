@@ -26,7 +26,7 @@ output "sample3" {
 variable "map" {
   default = {
     apple = {
-      Name = apple,
+      Name = "apple",
       count = 100
     }
     orange = {}
