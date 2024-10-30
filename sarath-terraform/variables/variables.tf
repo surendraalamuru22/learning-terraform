@@ -41,7 +41,7 @@ variable "tfvars" {}
 
 variable "surendra" {}
 
-output "pichi puka" {
+output "pichipuka" {
   value = var.surendra
 }
 
