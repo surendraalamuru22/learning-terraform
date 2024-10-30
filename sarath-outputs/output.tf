@@ -10,3 +10,6 @@ resource "aws_instance" "sarath" {
 provider "aws" {
   region = "us-east-1"
 }
+output "public-ip" {
+  value = aws_instance.sarath.public_ip
+}
