@@ -30,3 +30,7 @@ output "sample2" {
   value = var.sample2["number"]
 }
 
+variable "list" {
+  default = ["number", "string", "boolean"]
+}
+
