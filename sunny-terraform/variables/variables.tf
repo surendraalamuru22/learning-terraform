@@ -26,3 +26,7 @@ variable "sample2" {
   }
 }
 
+output "sample2" {
+  value = var.sample2["number"]
+}
+
