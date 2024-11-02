@@ -18,3 +18,11 @@ output "sample1" {
   value = var.sample1[0]
 }
 
+variable "sample2" {
+  default = {
+    string = "hello",
+    number = 10,
+    boolean = true
+  }
+}
+
